@@ -65,6 +65,11 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LiveTileMetadata.cs" />
+    <Compile Include="FlyoutMetadata.cs" />
+    <Compile Include="DynamicTextBlockMetadata.cs" />
+    <Compile Include="CustomDialogMetadata.cs" />
+    <Compile Include="FlipViewIndicatorMetadata.cs" />
     <Compile Include="ToggleMenuItemMetadata.cs" />
     <Compile Include="MenuItemSeparatorMetadata.cs" />
     <Compile Include="MenuItemMetadata.cs" />
