@@ -65,6 +65,12 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WrapPanelMetadata.cs" />
+    <Compile Include="WatermarkTextBoxMetadata.cs" />
+    <Compile Include="SettingsFlyoutMetadata.cs" />
+    <Compile Include="RatingItemMetadata.cs" />
+    <Compile Include="RatingMetadata.cs" />
+    <Compile Include="NumericUpDownMetadata.cs" />
     <Compile Include="LiveTileMetadata.cs" />
     <Compile Include="FlyoutMetadata.cs" />
     <Compile Include="DynamicTextBlockMetadata.cs" />
