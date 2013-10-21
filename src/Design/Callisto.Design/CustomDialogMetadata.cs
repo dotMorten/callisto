@@ -31,17 +31,18 @@ namespace Callisto.Design
 				b =>
 				{
 					b.AddCustomAttributes("Title",
-						new CategoryAttribute(Properties.Resources.CategoryCommon));
+						new CategoryAttribute(Properties.Resources.CategoryCommon)
+						);
 					b.AddCustomAttributes("IsOpen",
 						new CategoryAttribute(Properties.Resources.CategoryCommon)
 					);
 					b.AddCustomAttributes("BackButtonVisibility",
 						new CategoryAttribute(Properties.Resources.CategoryCommon)
 						);
-					b.AddCustomAttributes("IsOpen",
+					b.AddCustomAttributes("BackButtonCommand",
 						new CategoryAttribute(Properties.Resources.CategoryCommon)
 					);
-					b.AddCustomAttributes("IsOpen",
+					b.AddCustomAttributes("BackButtonCommandParameter",
 						new CategoryAttribute(Properties.Resources.CategoryCommon)
 					);
 					b.AddCustomAttributes(new ToolboxCategoryAttribute(ToolboxCategoryPaths.Callisto, false));
